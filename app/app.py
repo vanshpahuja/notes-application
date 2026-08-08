@@ -136,4 +136,4 @@ def root():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", "8080")))
 
-print("Checking if changes are affecting")
+print("Checking if changes are affecting IN notes-gitops")
