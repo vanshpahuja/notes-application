@@ -129,7 +129,7 @@ def admin_break():
 @app.get("/")
 def root():
     if GREETING:
-        return f"{GREETING} — try GET /notes\n"
+        return f"{GREETING} — try GET /notes.....\n"
     return "notes-api — try GET /notes or POST /notes with {\"text\":\"...\"}\n"
 
 
